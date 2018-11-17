@@ -39,3 +39,19 @@ img{
 .active{
     display: inline-block;
 }
+#left{
+    position: fixed;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    z-index: 1003;
+}
+#right{
+    position: fixed;
+    right: 0px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    z-index: 1003;
+}
